@@ -1,4 +1,4 @@
-package chalk
+package colors
 
 const (
 	Reset      = "\x1b[0m"
