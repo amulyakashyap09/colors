@@ -1,4 +1,4 @@
-package chalk
+package colors
 
 import (
 	"log"
