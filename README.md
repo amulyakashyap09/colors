@@ -1,12 +1,14 @@
 # Colors
 > A small golang utility to print colorful output on terminal
 
-## **_Installation_**
+## Installation
 ```
+go get -u github.com/amulyakashyap09/colors
+
 import color "github.com/amulyakashyap09/colors"
 ```
 
-## **_Usage_**
+## Usage
 
 ```
 var message string = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
@@ -16,7 +18,7 @@ color.Custom("black", "yellow", message)
 
 ```
 
-## **_Documentation_**
+## Documentation
 
 `color.Custom(bgColor, fgColor, message)`   |   `color.Custom` will print the `message` in colors provided as input
 
@@ -46,9 +48,8 @@ color.Custom("black", "yellow", message)
 
 `color.Black(message)` | `color.Black` will print the `message` in black
 
-## **_Author_**
+## Author
 ```
 Amulya Kashyap
 amulyakasyap09@gmail.com
-9559974779
 ```
